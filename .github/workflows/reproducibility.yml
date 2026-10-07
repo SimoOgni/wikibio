@@ -1,0 +1,27 @@
+name: reproducibility
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Verify requirements.txt 
+        run: pip install --dry-run -r train/requirements.txt --extra-index-url https://download.pytorch.org/whl/cu130
+
+      - name: Canaries are deterministic
+        working-directory: train/task
+        run: |
+          python canary.py && sha256sum canaries.jsonl canary_secrets.json > a.sha
+          python canary.py && sha256sum canaries.jsonl canary_secrets.json > b.sha
+          diff a.sha b.sha
+
+      - name: Committed artefacts are valid JSON
+        run: |
+          for f in train/core/seed_dict.json train/pipeline/data/train_M*.json train/pipeline/results/*.json; do
+            python -m json.tool "$f" > /dev/null || exit 1
+          done

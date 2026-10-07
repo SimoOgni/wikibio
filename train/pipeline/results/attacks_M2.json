@@ -1,0 +1,79 @@
+{
+  "condition": "M2",
+  "extraction": {
+    "member": {
+      "n": 400,
+      "mem_rate": 0.018,
+      "lcs_p90": 30.0
+    },
+    "nonmember": {
+      "n": 132,
+      "mem_rate": 0.015,
+      "lcs_p90": 21.0
+    },
+    "mem_gap": 0.003
+  },
+  "extraction_minL": {
+    "member": {
+      "n": 217,
+      "mem_rate": 0.0
+    },
+    "nonmember": {
+      "n": 78,
+      "mem_rate": 0.0
+    },
+    "mem_gap": 0.0
+  },
+  "canary": {
+    "hits": 4,
+    "measurable": 27,
+    "rate": 0.148
+  },
+  "inference": {
+    "temporal": {
+      "rate": 0.027,
+      "n": 331
+    },
+    "location": {
+      "rate": 0.14,
+      "n": 335
+    },
+    "occupation": {
+      "rate": 0.055,
+      "n": 217
+    },
+    "nationality": {
+      "rate": 0.211,
+      "n": 71
+    },
+    "education": {
+      "rate": 0.0,
+      "n": 42
+    },
+    "religion": {
+      "rate": 0.111,
+      "n": 27
+    },
+    "political_role": {
+      "rate": 0.0,
+      "n": 57
+    },
+    "_all": {
+      "rate": 0.08,
+      "hits": 86,
+      "n": 1080
+    }
+  },
+  "mia": {
+    "auc": 0.642,
+    "tpr01": 0.035,
+    "loss_member": 13.754,
+    "loss_nonmember": 14.471
+  },
+  "utility": {
+    "ppl": 190.3,
+    "sbert": 0.433,
+    "rep4": 0.003,
+    "gen_len": 62.1
+  }
+}

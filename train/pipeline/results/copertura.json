@@ -1,0 +1,97 @@
+{
+  "M1": {
+    "temporal": 0.9546079779917469,
+    "location": 0.9499094749547374,
+    "nationality": 0.9507042253521126,
+    "education": 0.9381443298969072,
+    "occupation": 0.06161616161616162,
+    "political_role": 0.6952380952380952,
+    "religion": 1.0,
+    "totale": 0.78,
+    "n": {
+      "temporal": 2181,
+      "location": 1657,
+      "nationality": 284,
+      "education": 97,
+      "occupation": 990,
+      "political_role": 210,
+      "religion": 4
+    }
+  },
+  "M2": {
+    "temporal": 0.19119669876203577,
+    "location": 0.7248038624019312,
+    "nationality": 0.38380281690140844,
+    "education": 0.8969072164948454,
+    "occupation": 0.16666666666666666,
+    "political_role": 0.5904761904761905,
+    "religion": 0.25,
+    "totale": 0.388,
+    "n": {
+      "temporal": 2181,
+      "location": 1657,
+      "nationality": 284,
+      "education": 97,
+      "occupation": 990,
+      "political_role": 210,
+      "religion": 4
+    }
+  },
+  "M3": {
+    "temporal": 0.9977074736359468,
+    "location": 0.8865419432709717,
+    "nationality": 0.9964788732394366,
+    "education": 0.9896907216494846,
+    "occupation": 0.9393939393939394,
+    "political_role": 0.9428571428571428,
+    "religion": 0.75,
+    "totale": 0.951,
+    "n": {
+      "temporal": 2181,
+      "location": 1657,
+      "nationality": 284,
+      "education": 97,
+      "occupation": 990,
+      "political_role": 210,
+      "religion": 4
+    }
+  },
+  "M4": {
+    "temporal": 0.9564419990829894,
+    "location": 0.7748943874471937,
+    "nationality": 0.9929577464788732,
+    "education": 0.9587628865979382,
+    "occupation": 0.8606060606060606,
+    "political_role": 0.8714285714285714,
+    "religion": 0.75,
+    "totale": 0.882,
+    "n": {
+      "temporal": 2181,
+      "location": 1657,
+      "nationality": 284,
+      "education": 97,
+      "occupation": 990,
+      "political_role": 210,
+      "religion": 4
+    }
+  },
+  "M5": {
+    "temporal": 0.7698303530490601,
+    "location": 0.7073023536511768,
+    "nationality": 0.9894366197183099,
+    "education": 0.9072164948453608,
+    "occupation": 0.8090909090909091,
+    "political_role": 0.7857142857142857,
+    "religion": 0.75,
+    "totale": 0.772,
+    "n": {
+      "temporal": 2181,
+      "location": 1657,
+      "nationality": 284,
+      "education": 97,
+      "occupation": 990,
+      "political_role": 210,
+      "religion": 4
+    }
+  }
+}
